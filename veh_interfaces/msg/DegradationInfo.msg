@@ -1,0 +1,2 @@
+bool crit_impct
+bool low_impct
