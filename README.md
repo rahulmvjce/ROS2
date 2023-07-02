@@ -22,6 +22,7 @@ Creating custom GUI with Qt and ROS2
         rosdep install --ignore-src --from-paths . -y
 
 4. Configure and build the workspace
+   
         colcon build --packages-select veh_interfaces
         colcon build
         source $COLCON_WS/install/setup.bash
