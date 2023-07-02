@@ -22,9 +22,10 @@ Creating custom GUI with Qt and ROS2
         rosdep install --ignore-src --from-paths . -y
 
 4. Configure and build the workspace
-
+        colcon build --packages-select veh_interfaces
+        colcon build
         source $COLCON_WS/install/setup.bash
 
-5. Launch the GUI using the following command:
+6. Launch the GUI using the following command:
 
         ros2 launch qtros2 gui.launch.py
